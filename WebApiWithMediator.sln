@@ -1,0 +1,45 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30523.141
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Building Blocks", "Building Blocks", "{08E051CE-E905-4183-BCEA-1026570643AD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{7488AA94-6F15-445F-B8A3-B772C8FF16F3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Core", "Domains\Core.csproj", "{53D73739-3FFD-4CF3-9B82-D3AAFCB4A8DA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{1CA45591-0D24-4422-AC92-F9F6BF0BFF74}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Cliente", "Cliente", "{963437FE-82C0-4E3A-BB21-681ED4A7884C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Clientes.Api", "Clientes.Api\Clientes.Api.csproj", "{A89DCC9C-8734-4916-A08E-1A764C3AC675}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{53D73739-3FFD-4CF3-9B82-D3AAFCB4A8DA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{53D73739-3FFD-4CF3-9B82-D3AAFCB4A8DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{53D73739-3FFD-4CF3-9B82-D3AAFCB4A8DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{53D73739-3FFD-4CF3-9B82-D3AAFCB4A8DA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A89DCC9C-8734-4916-A08E-1A764C3AC675}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A89DCC9C-8734-4916-A08E-1A764C3AC675}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A89DCC9C-8734-4916-A08E-1A764C3AC675}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A89DCC9C-8734-4916-A08E-1A764C3AC675}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{7488AA94-6F15-445F-B8A3-B772C8FF16F3} = {08E051CE-E905-4183-BCEA-1026570643AD}
+		{53D73739-3FFD-4CF3-9B82-D3AAFCB4A8DA} = {7488AA94-6F15-445F-B8A3-B772C8FF16F3}
+		{963437FE-82C0-4E3A-BB21-681ED4A7884C} = {1CA45591-0D24-4422-AC92-F9F6BF0BFF74}
+		{A89DCC9C-8734-4916-A08E-1A764C3AC675} = {963437FE-82C0-4E3A-BB21-681ED4A7884C}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2874CF37-1858-49BF-A218-821BC5FE34A0}
+	EndGlobalSection
+EndGlobal
